@@ -1,9 +1,5 @@
 #Ignore files related to API keys
 .env
-
+/artifacts/
 #Ignore all files starting with "z"
 z*
-
-# Root config folder - Ignore this directory at the root due to leading slash
-# Removing the slash would ignore "config" directories at all depths 
-/artifacts
